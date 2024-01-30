@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(224, 224, 140);
+}
+
+h1{
+    /* text-shadow: 2px 2px #ff0000; */
+    font-family: 'Borel', cursive;
+    font-family: 'Playpen Sans', cursive;
+    border: 2px solid black;
+    padding: 2rem 1rem;
+    color: white;
+    
+}
+nav{
+    padding-top: 2rem;
+}
+label{
+    
+    color: white;
+    font-size: 2rem;
+}
+input{
+    width: 16rem;
+    height: 3rem;
+    border-radius: 16px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.differentColor{
+    color: red;
+    text-shadow: none;
+}
+header{
+    background-color: rgb(103, 196, 103);
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 3px solid black;
+}
+button{
+    margin-top: 3rem;
+    background-color: red;
+    color: rgb(103, 196, 103);
+    width: 16rem;
+    height: 3rem;
+    border-radius: 16px;
+    font-size: 2.5rem;
+}
+main{
+    text-align: center;
+    padding-top: 5rem;
+    width: 100%;
+    
+    background-color: rgb(224, 224, 140);
+    
+}
+.computer{
+    padding-top: 2rem;
+    text-align: center;
+    width: 30%;
+    height: 30rem;
+    border: 1px solid black;
+    background-color: white;
+}
+.player{
+    padding-top: 2rem;
+    text-align: center;
+    width: 30%;
+    height: 30rem;
+    border: 1px solid black;
+    background-color: white;
+}
+img{
+    width: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.choose{
+    margin-top: 5.5rem;
+    width: 100%;
+    height: 8rem;
+    background-color: grey;
+    border: 1px solid black;
+    padding-top: 1rem;
+}
+.material-symbols-outlined{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 35px;
+}
+.containerPlay{
+    display: flex;
+    justify-content: space-around;
+}
+.computerDecide{
+    margin-top: 7rem;
+    padding-top: 2rem;
+    width: 100%;
+    height: 8rem;
+    background-color: grey;
+    border: 1px solid black;
+}
+.gameLog{
+    width: 30%;
+    min-height: 30rem;
+    padding-top: 2rem;
+    text-align: center;
+    
+    border: 1px solid black;
+    background-color: white;
+}
+h2{
+    font-size: 2rem;
+}
+.headingGameLog{
+    margin-bottom: 2rem;
+}
+p{
+    font-size: 2rem;
+}
+ul{
+    list-style-type: none;
+}
+#quitBtn{
+    margin-top: 6.3rem;
+    
+}
+#echse{
+   
+    width: 2.5rem;
+    transform: rotate(-120deg);
+    
+}
+#logList{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+li{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#spielStart{
+    display: none;
+    font-size: 2.2rem;
+    color: red;
+}

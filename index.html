@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Playpen+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Schere Stein Papier</title>
+</head>
+
+<body>
+    <header>
+        <h1>Schere Stein Papier <br> <span class="differentColor">Echse Spock</span></h1>
+        <nav>
+            <label for="rundenAnzahl">how many rounds would you like to play <br> fill the input with a number and press Start Game</label>
+            <br>
+            <input type="text" id="rundenAnzahl">
+            <br>
+            <button class="startBtn"> Start Game </button>
+        </nav>
+    </header>
+    <main>
+        <div class="containerPlay">
+            <section class="computer">
+                <h2>Computer</h2>
+                <div class="computerDecide">
+                    
+                    <img src="" alt="" id="computer">
+                </div>
+            </section>
+            <section class="gameLog">
+                <h2 class="headingGameLog">Game Log</h2>
+                <ul id="logList">
+                    
+                </ul>
+            </section>
+            <section class="player">
+                <h2>Player</h2>
+                <h3 id="spielStart">please select a sign</h3>
+                <div class="choose">
+                    <img src="img/schere.svg" alt="schere">
+                    <img src="img/stein.svg" alt="stein">
+                    <img src="img/papier.svg" alt="papier">
+                    <img id="echse" src="img/eidechse.svg" alt="eidechse">
+                    <img src="img/spock.svg" alt="spock">
+                </div>
+
+
+            </section>
+        </div>
+        <button id="quitBtn">Quit Game</button>
+        <script src="index.js"></script>
+    </main>
+</body>
+
+</html>
